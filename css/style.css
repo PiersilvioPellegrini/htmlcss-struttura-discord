@@ -4,22 +4,51 @@
     box-sizing: border-box;
 }
 
-header{
+header {
     background-color: aqua;
     width: 100%;
     border: 2px solid rgb(230, 26, 26);
 }
 
-nav{
+nav {
     background-color: orange;
-    border: 2px solid rgb(198, 25, 25);
+
     width: 920px;
     margin: 15px auto;
     display: flex;
     justify-content: space-between;
 
+
 }
 
+.logo {
+    flex-basis: 20%;
+    border: 2px solid black;
+    padding-left: 10px;
+}
+
+.link {
+
+    flex-basis: 60%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.link ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.login {
+
+    flex-basis: 20%;
+    text-align: end;
+    border: 2px solid black;
+    padding-right: 10px;
+
+}
 
 section {
     padding: 40px 0;
@@ -33,62 +62,58 @@ section {
     display: flex;
 
     /* /contenuto */
-    padding:  0px 0px;
+    padding: 0px 0px;
 }
 
 .container-small {
     width: 700px;
-    color:yellow;
-
+    color: yellow;
+    background-color: pink;
     /* contenuto */
     padding: 120px;
-    
+
 }
+
 .row {
     display: flex;
     width: 100%;
-    
+
 }
 
 .col {
     padding: 120px;
     flex-basis: 40%;
     background-color: blueviolet;
-   
-    
+
+
 }
 
 .col-2 {
     flex-basis: 60%;
     background-color: yellow;
-    
-    
+
+
 }
 
-.container_max{
+.container_max {
     width: 920px;
     margin: 0 auto;
     border: 2px solid orange;
     background-color: green;
-    
+
     /* contenuto */
     padding: 300px;
 }
 
 
-.bg-blue{
+.bg-blue {
     background-color: blue;
 }
-.bg-grey{
+
+.bg-grey {
     background-color: grey;
 }
 
-.bg-black{
+.bg-black {
     background-color: black;
 }
-
-
-.bg-pink{
-    background-color: pink;
-}
-
