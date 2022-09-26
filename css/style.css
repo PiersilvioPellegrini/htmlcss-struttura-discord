@@ -129,14 +129,15 @@ section {
     width: 920px;
     margin: 0 auto;
     border: 2px solid orange;
-    
+
     display: flex;
     flex-direction: row;
 
 }
+
 /* colonna grande blocco 1 footer */
 .colbig_footer {
-    padding:200px 0;
+    padding: 200px 0;
     flex-grow: 2;
     background-color: bisque;
     border: 2px solid white;
@@ -146,7 +147,7 @@ section {
 
 /* colonna normale blocco 1 footer */
 .col_footer {
-    padding:200px 0;
+    padding: 200px 0;
     flex-grow: 1;
     background-color: brown;
     border: 2px solid white;
