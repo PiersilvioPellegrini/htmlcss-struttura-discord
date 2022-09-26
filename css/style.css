@@ -60,6 +60,7 @@ section {
     margin: 0 auto;
     border: 2px solid orange;
     display: flex;
+    text-align: center;
 
     /* /contenuto */
     padding: 0px 0px;
@@ -69,6 +70,7 @@ section {
     width: 700px;
     color: yellow;
     background-color: pink;
+    
     /* contenuto */
     padding: 120px;
 
@@ -104,6 +106,8 @@ section {
     /* contenuto */
     padding: 300px;
 }
+
+
 
 
 .bg-blue {
