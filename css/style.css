@@ -21,6 +21,11 @@ nav {
 
 }
 
+footer {
+    background-color: black;
+}
+
+
 .logo {
     flex-basis: 20%;
     border: 2px solid black;
@@ -70,9 +75,10 @@ section {
     width: 700px;
     color: yellow;
     background-color: pink;
-    
+
     /* contenuto */
     padding: 120px;
+    border: 2px solid red;
 
 }
 
@@ -86,14 +92,14 @@ section {
     padding: 120px;
     flex-basis: 40%;
     background-color: blueviolet;
-
+    border: 2px solid red;
 
 }
 
 .col-2 {
     flex-basis: 60%;
     background-color: yellow;
-
+    border: 2px solid red;
 
 }
 
@@ -118,24 +124,57 @@ section {
     background-color: grey;
 }
 
-.bg-black {
-    background-color: black;
-}
 
-.footer2{
+.footer1 {
     width: 920px;
     margin: 0 auto;
     border: 2px solid orange;
+    
+    display: flex;
+    flex-direction: row;
+
+}
+/* colonna grande blocco 1 footer */
+.colbig_footer {
+    padding:200px 0;
+    flex-grow: 2;
+    background-color: bisque;
+    border: 2px solid white;
+
+
+}
+
+/* colonna normale blocco 1 footer */
+.col_footer {
+    padding:200px 0;
+    flex-grow: 1;
+    background-color: brown;
+    border: 2px solid white;
+}
+
+
+
+
+
+
+
+/* secondo blocco footer */
+.footer2 {
+    width: 920px;
+    margin: 0 auto;
+    border: 2px solid white;
     background-color: green;
     display: flex;
     justify-content: space-between;
-    padding: 10px 0 ;
-    
+    padding: 10px 0;
 
-    
+
+
 }
 
-.logo_footer , .bottom{
+/* bottoni footer2 */
+.logo_footer,
+.bottom {
     background-color: pink;
+    border: 2px solid white;
 }
-
